@@ -1,0 +1,74 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT ",
+    "version": "eosio::abi/1.2",
+    "types": [],
+    "structs": [
+        {
+            "name": "crudtable",
+            "base": "",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "description",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "getselfinfo",
+            "base": "",
+            "fields": []
+        },
+        {
+            "name": "intcreate",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "description",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "getselfinfo",
+            "type": "getselfinfo",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "intcreate",
+            "type": "intcreate",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "crudtable",
+            "type": "crudtable",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "kv_tables": {},
+    "ricardian_clauses": [],
+    "variants": [],
+    "action_results": [
+        {
+            "name": "intcreate",
+            "result_type": "int64"
+        }
+    ]
+}
